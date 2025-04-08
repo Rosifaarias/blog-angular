@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  background-color: #212529; /* equivalente ao bg-dark */
+  color: #f8f9fa;            /* equivalente ao text-light */
+  padding: 1rem 0;
+  margin-top: auto;
+  border-top: 2px solid #f25c05;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #f25c05;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

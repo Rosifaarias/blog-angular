@@ -1,0 +1,23 @@
+.container__menu-title {
+  text-align: center;
+  margin: 40px auto;
+  color: #000; /* Preto */
+}
+
+.container__menu-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #F25C05; /* Laranja Avanade */
+  margin: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.container__menu-title hr {
+  border: none;
+  height: 2px;
+  background-color: #000; /* Preto */
+  width: 60%;
+  margin: 0 auto;
+}

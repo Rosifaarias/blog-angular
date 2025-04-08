@@ -1,0 +1,59 @@
+/* Container principal */
+.container__content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #f25c05;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagem de capa */
+.content__cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Título */
+.content__title h1 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content__title hr {
+  width: 60px;
+  height: 3px;
+  background-color: #f25c05;
+  border: none;
+  margin: 0 auto 20px auto;
+}
+
+/* Descrição e link voltar */
+.content__description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.content__description a {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #f25c05;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.content__description a:hover {
+  color: #e15000;
+}
+
+.content__description p {
+  white-space: pre-line;
+}

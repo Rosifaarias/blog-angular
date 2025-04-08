@@ -1,0 +1,58 @@
+/* Container do card pequeno */
+.container__small-card {
+  background-color: #fff;
+  border: 1px solid #f25c05;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.container__small-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Conteúdo interno: foto e título */
+.container__small-card-content {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Foto do card, em formato circular */
+.small-card__photo img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #f25c05;
+}
+
+/* Título do card */
+.small-card__title h1 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.small-card__title h1 a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.small-card__title h1 a:hover {
+  color: #f25c05;
+}
+
+/* Separador */
+.container__small-card__separator hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #f25c05;
+}

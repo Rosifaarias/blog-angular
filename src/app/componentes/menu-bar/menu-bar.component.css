@@ -1,0 +1,27 @@
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os itens */
+  padding: 10px 0;
+}
+
+.container__menu-bar > ul > li {
+  list-style: none;
+}
+
+.container__menu-bar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.container__menu-bar a:hover {
+  color: #f25c05;
+}
+
+.container__menu-bar i {
+  margin-right: 8px;
+}
